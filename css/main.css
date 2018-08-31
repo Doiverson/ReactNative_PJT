@@ -68,8 +68,32 @@ img {
     height: 100%;
 }
 
+/*Game page*/
 
+.question {
+    font-size: 1.5em;
+    color: #878789;
+    text-align: center;
+    margin-top: 165px;
+}
 
+.answer-wrap {
+    display: flex;
+}
+
+.answer {
+    position: relative;
+    margin: 0 auto;
+    background-color: #FFEDBC;
+    border-radius: 50%;
+}
+
+.answer p {
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+}
 
 /*button*/
 
