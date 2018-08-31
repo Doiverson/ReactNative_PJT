@@ -5,7 +5,6 @@ html {
 
 body {
     height: 100%;
-    margin: 0 auto;
     padding: 0;
     background-image: url("../img/bg-arrows.jpg");
     background-size: cover;
@@ -13,6 +12,7 @@ body {
 
 * {
     box-sizing: border-box;
+    margin: 0 auto;
 }
 
 p {
@@ -24,9 +24,10 @@ p {
 
 .container {
     height: 100%;
+    /*margin: 0 auto;*/
 }
 
-/*Main contents*/
+/*Top*/
 
 .top-image {
     display: inline-block;
@@ -34,7 +35,6 @@ p {
     text-align: center;
     width: 100%;
     margin: 90px auto 82px auto;
-    /*margin: 92px 15px 236px 15px;*/
 }
 
 .top-image img {
@@ -66,12 +66,13 @@ p {
 .btn-wrap {
     margin: 0 auto;
     text-align: center;
+    width: 300px;
+    height: 70px;
 }
 
 .btn {
     display: inline-block;
-    width: 300px;
-    height: 70px;
+    width: 100%;
     line-height: 70px;
     font-family: Arial, serif;
     font-size: 25px;
