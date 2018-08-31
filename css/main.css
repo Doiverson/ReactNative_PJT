@@ -17,7 +17,7 @@ body {
 
 p {
     margin: 0;
-    font-family: Helvetica, sans-serif;
+    font-family: Helvetica, serif;
     font-size: 32px;
     font-weight: bold;
 }
@@ -56,6 +56,10 @@ p {
     line-height: 44px;
 }
 
+.top-title p {
+    color: #5F5654;
+}
+
 
 /*button*/
 
@@ -69,12 +73,22 @@ p {
     width: 300px;
     height: 70px;
     line-height: 70px;
+    font-family: Arial, serif;
     font-size: 25px;
+    color: #fff;
     text-decoration: none;
     text-align: center;
     background: linear-gradient(to bottom, #F28C81, #F5AF19);
     box-shadow: 0 3px 11px rgba(0,0,0,0.6);
+    border-radius: 30px;
+    transition: all 0.2s;
+}
 
+.btn:active {
+    -ms-transform: translateY(2px);
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);/*下に動く*/
+    box-shadow: none;
 }
 
 
