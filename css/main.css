@@ -4,8 +4,70 @@ html {
 }
 
 body {
+    height: 100%;
     margin: 0 auto;
     padding: 0;
+    background-image: url("../img/bg-arrows.jpg");
+    background-size: cover;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.container {
+    height: 100%;
+}
+
+/*Main contents*/
+
+.top-image {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin: 90px auto 82px auto;
+    /*margin: 92px 15px 236px 15px;*/
+}
+
+.top-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.top-title {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 125px;
+    height: 95px;
+    line-height: 44px;
+}
+
+
+/*button*/
+
+.btn {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn-start {
+    width: 300px;
+    height: 70px;
+    vertical-align: middle;
 }
 
 
@@ -14,5 +76,4 @@ body {
 /*Media Query*/
 
 @media screen and (max-width: 480px) {
-
 }
