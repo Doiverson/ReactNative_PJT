@@ -74,16 +74,21 @@ img {
     font-size: 1.5em;
     color: #878789;
     text-align: center;
-    margin-top: 165px;
+    padding-top: 165px;
+    margin-top: 0;
+    margin-bottom: 40px;
 }
 
-.answer-wrap {
+.answer-wrap,
+.btn-wrap {
     display: flex;
+    margin-bottom: 80px;
+    margin-right: 40px;
+    margin-left: 40px;
 }
 
 .answer {
-    position: relative;
-    margin: 0 auto;
+    margin: auto;
     background-color: #FFEDBC;
     border-radius: 50%;
 }
@@ -95,9 +100,19 @@ img {
     text-align: center;
 }
 
-/*button*/
+.arrow-btn {
+    margin: auto;
+    text-align: center;
+    width: 280px;
+}
 
-.btn-wrap {
+.arrow-btn img {
+    width: 100px;
+}
+
+/*Start button*/
+
+.btn-st {
     margin: 0 auto;
     text-align: center;
     width: 300px;
