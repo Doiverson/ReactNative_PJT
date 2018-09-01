@@ -58,6 +58,35 @@ img {
     color: #5F5654;
 }
 
+.btn-st {
+    margin: 0 auto;
+    text-align: center;
+    width: 300px;
+    height: 70px;
+}
+
+.btn {
+    display: inline-block;
+    width: 100%;
+    line-height: 70px;
+    font-family: Arial, serif;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    background: linear-gradient(to bottom, #F28C81, #F5AF19);
+    box-shadow: 0 3px 11px rgba(0,0,0,0.6);
+    border-radius: 30px;
+    transition: all 0.2s;
+}
+
+.btn:active {
+    -ms-transform: translateY(2px);
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);/*下に動く*/
+    box-shadow: none;
+}
+
 /*Countdown*/
 
 .donuts-count {
@@ -102,43 +131,14 @@ img {
 
 .arrow-btn {
     margin: auto;
-    text-align: center;
-    width: 280px;
-}
-
-.arrow-btn img {
     width: 100px;
-}
-
-/*Start button*/
-
-.btn-st {
-    margin: 0 auto;
-    text-align: center;
-    width: 300px;
-    height: 70px;
-}
-
-.btn {
-    display: inline-block;
-    width: 100%;
-    line-height: 70px;
-    font-family: Arial, serif;
-    font-size: 25px;
-    color: #fff;
-    text-decoration: none;
-    text-align: center;
-    background: linear-gradient(to bottom, #F28C81, #F5AF19);
-    box-shadow: 0 3px 11px rgba(0,0,0,0.6);
-    border-radius: 30px;
     transition: all 0.2s;
 }
 
-.btn:active {
+.arrow-btn:active {
     -ms-transform: translateY(2px);
     -webkit-transform: translateY(2px);
     transform: translateY(2px);/*下に動く*/
-    box-shadow: none;
 }
 
 
@@ -147,7 +147,7 @@ img {
 /*Media Query*/
 
 @media screen and (max-width: 480px) {
-    img{
+    img {
         max-width: 90%;
     }
 }
