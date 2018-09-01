@@ -117,17 +117,38 @@ img {
 }
 
 .answer {
+    position: relative;
     margin: auto;
     background-color: #FFEDBC;
     border-radius: 50%;
+    width: 150px;
+    height: 150px;
 }
 
 .answer p {
-    width: 150px;
-    height: 150px;
     line-height: 150px;
     text-align: center;
 }
+
+.answer img {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.answer .portrait {
+    max-width: 115%;
+    top: -11px;
+    left: -10px;
+    margin: unset;
+    bottom: unset;
+    right: unset;
+}
+
+
 
 .arrow-btn {
     margin: auto;
@@ -149,5 +170,9 @@ img {
 @media screen and (max-width: 480px) {
     img {
         max-width: 90%;
+    }
+
+    .portrait {
+        max-width: 115%;
     }
 }
